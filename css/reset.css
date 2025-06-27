@@ -1,0 +1,76 @@
+/* 컬러 변수 */
+:root {
+	--color-main: #4FD1C5;				/* 메인컬러, 버튼, 강조색 */
+	--color-sub: #2D3748;				/* 호버, 텍스트주요색, 그래프강조색 */
+	--color-background: #F7FAFC;		/* 전체 배경 */
+	--color-card-bg: #FFFFFF;			/* 박스/카드 배경 */
+	--color-text-primary: #1F2937;		/* 본문 글자 색 */
+	--color-text-secondary: #6B7280;	/* 설명/보조 글자 색 */
+	--color-warning: #F87171;			/* 경고/지출 강조 색 */
+	--color-income: #34D399;			/* 수입 강조 색 */
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video { 
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	color: inherit;
+	font-family: 'Pretendard';
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: Pretendard;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+button {
+	border: none;
+	outline: none;
+}
+button:focus-visible {
+	border: none;
+	outline: none;
+}
+a {
+	text-decoration: none;
+}
+dialog {
+	outline: none;
+    border: none;
+}
+dialog:-internal-dialog-in-top-layer::backdrop {
+	background-color: rgba(0, 0, 0, 0.5);
+}
